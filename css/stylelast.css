@@ -81,11 +81,12 @@ body {
 }
 
 .envelope .back .letter p {
-  font-size: 30px;
-  line-height: 20px;
-  letter-spacing: 2px;
-  color: #ff969f;
+    font-size: 25px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #ff2f41;
 }
+	
 
 .envelope .front .mail p:first-child {
   font-size: 50px;
@@ -97,16 +98,17 @@ body {
   font-size: 30px;
 }
 
-.envelope .back .letter p:nth-child(2) {
-  font-size: 30px;
-  color: black;
+	.envelope .back .letter p:nth-child(2) {
+    font-size: 30px;
+    color: #f57882;
 }
+	
 
 .envelope .back .letter p:nth-child(3) {
-  font-size: 30px;
-  color: #f57882;
-  margin-top: 150px;
-  float: right;
+    font-size: 30px;
+    color: #f57882;
+    margin-top: -11px;
+    /* float: right; */
 }
 
 .envelope .back {
@@ -203,9 +205,9 @@ body {
 }
 
 .envelope .back .letter div {
-  position: relative;
-      margin-top: -126px;
-    margin-right: 0;
+    position: relative;
+    margin-top: -18px;
+    margin-right: 68px;
 }
 
 .envelope .back .letter label {
