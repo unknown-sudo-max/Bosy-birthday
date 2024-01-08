@@ -10,11 +10,17 @@
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad:ital@1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metal&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
-  
     <!-- Custom CSS -->
     <style>
         body {
@@ -133,19 +139,11 @@
     border-radius: 10px;
     padding: 0;
         }
-
-        .bgmusic{
-            display: none !important;
-            visibility: hidden !important;
-        }
     </style>
 </head>
 
 <body>
-   <audio id="bgMusic" class="bgmusic" autoplay>
-    <source src="time2.mp3" type="audio/mpeg">
-    
-</audio>
+
     <div class="jumbotron">
         <h1 class="display-4">Happy Birthday, Bosy <span class="heart">❤</span></h1>
         <p class="lead">Wishing you all days filled with love, joy, and unforgettable moments.</p>
@@ -171,10 +169,15 @@
                     <!-- English Text Goes Here -->
                 </div>
             </div>
+          
 
         </div>
 
-        
+          <div class="divv" style="text-align: center; color: #dc3545; font-size: 25px; margin-top: 10px;font-family: 'Metal', serif;
+">
+    <b>Love you to the end of days = forever ❤</b>
+</div>
+
 
         <div id="countdown"></div>
 
@@ -224,13 +227,17 @@
 
   button:hover {
     background-color: #977171;
+    
   }
   </style>
  
 
   
 
-
+<audio id="bgMusic" style="display: none;" autoplay>
+    <source src="time2.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
   
 
 
@@ -240,7 +247,7 @@
     <input type="email" id="to" name="to" style="border: none;color: dimgray;" value="m4il.hub@gmail.com" readonly required>
 
     <label for="subject">Subject:</label>
-    <input type="text" id="subject" name="subject"  style="border: none;color: dimgray;" value="Michael Gad AI Contact Request" readonly required>
+    <input type="text" id="subject" name="subject"  style="border: none;color: dimgray;" value="Michael Gad  AI bot | Contact Request" readonly required>
 
     <label for="message">Message:</label>
     <textarea id="message" name="message" rows="4" cols="30" required></textarea>
@@ -269,7 +276,7 @@
 
     <!-- Your custom JavaScript for countdown and language toggle -->
    <script>
-        const birthdayDate = new Date('2023-12-15T00:00:00');
+        const birthdayDate = new Date('2024-01-11T00:00:00');
         const countdownElement = document.getElementById('countdown');
         let isEnglish = true;
 
@@ -295,12 +302,17 @@
                     <p>في هذا اليوم الخاص ، أريد أن أحتفل ليس فقط بيوم ميلادكِ ولكن بالشخص الفريد والرائع الذي أنتِ عليه. <span class="msgclass"> وجودكِ في حياتي </span class="msgclass">هو هدية يغمرها الفرح والدفء والإلهام. وأريد أن أعرب عن عمق امتناني لوجودكِ في حياتي. ❤</p>
                     <p>إن لطفكِ ودفئكِ وفرحكِ المعدي <span class="msgclass">جعل كل لحظة</span class="msgclass"> أكثر إشراقًا. أتمنى أن يكون عيد الميلاد هذا بمثابة بداية عام مليء بالحب والنجاح والذكريات الجميلة التي <span class="msgclass">لا تُنسى</span class="msgclass">.</p>
                     <p>أتمنى أن يكون هذا العام مليئًا باللحظات التي تجعل قلبكِ يبتسم، محاطًا بحب الذين يقدرونكِ. أثناء شروعكِ في عام آخر ، عسى أن تكون رحلة تقدم ومفاجآت جميلة.</p>
-                    <p>ًشكراً لكونك الشخص الرائع الذي أنتِ عليه. وهنا نحتفل اليوم وكل يوم. عيد ميلاد سعيد ❤</p>
+                    <p>انتي تستحقين كل ما هو خيّر و جميل و كل ورود الدنيا , بل تستحقين اكثر من ذالك ❤</p>
+
+                    <p>شكرا لكونك الشخص الرائع الذي أنتِ عليه. وهنا نحتفل اليوم وكل يوم. عيد ميلاد سعيد يا من احببتك بسبب و بدون سبب ❤</p>
+
 
 
 
 
                 </div>
+
+                 <br/><br/>  <div class="msgclass" style="    margin-bottom: 10px;text-align:center;font-family: 'Amiri', serif;font-size: 22px;" dir="rtl"> - وجودكِ في حياتي جعل كل لحظة لا تُنسى  ❤ .</div><br/>
             `;
         }
 
@@ -317,7 +329,9 @@
                 <p>May this year be filled with moments that make your heart smile, surrounded by the love of
                     those who cherish you. As you embark on another year, may it be a journey of growth,
                     fulfillment, and beautiful surprises.</p>
-                <p>Thank you for being the incredible person you are. Here's to celebrating you today and every day. Happy birthday ❤</p>
+                    <p>You deserve everything that is good and beautiful and all the roses of the world, but you deserve more than that ❤</p>
+                <p>Thank you for being the wonderful person that you are. Here we celebrate today and every day. Happy birthday, who I loved for a reason and without  ❤</p>
+                <br/><br/>  <div class="msgclass" style="    margin-bottom: 10px;text-align:center;"> - your presence in my life have made every moment unforgettable ❤.</div><br/>
             `;
         }
 
@@ -355,7 +369,11 @@
       // Open the user's default email client
       window.location.href = mailtoLink;
     }
- 
+function startBackgroundMusic() {
+      const bgMusic = document.getElementById('bgMusic');
+      bgMusic.currentTime = bgMusic.duration / 2;
+      bgMusic.play();
+    }
 
 
     </script>
